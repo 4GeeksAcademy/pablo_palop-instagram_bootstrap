@@ -1,6 +1,46 @@
-img{
-    width: 100px;
-    height: 100px;
+.mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tab-content
+
+img {
+    width: auto;
+    height: auto;
     object-fit: cover;
     object-position: center;
+    border-radius: 6px;
+}
+
+/* .card {
+     border: none; 
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
+} */
+
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.miniHeader{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
